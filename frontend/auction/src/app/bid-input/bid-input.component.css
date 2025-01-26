@@ -1,0 +1,7 @@
+mat-label {
+    text-transform: uppercase;
+}
+
+mat-card{
+    overflow: hidden;
+}

@@ -1,0 +1,11 @@
+<app-username-form *ngIf="!isUserNameSet" (userNameSet)="onUserNameSet($event)"></app-username-form>
+
+<div class="main" *ngIf="isUserNameSet">
+
+  <app-player-list  [players]="players"></app-player-list>
+
+  <app-bid-input  (bidPlaced)="onBidPlaced($event)"></app-bid-input>
+
+  <app-user-info [userName]="userName" [lastBid]="lastBid" ></app-user-info>
+
+</div>

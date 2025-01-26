@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+
+app-player-list {
+    flex-shrink: 0; 
+    width: 30%;     
+  }
+
+
+  app-bid-input{
+    width: 20%;
+  } 
+
+  app-user-info{
+    width: 20%;
+  }
+

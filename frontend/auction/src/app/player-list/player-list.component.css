@@ -1,0 +1,19 @@
+.sample{
+    width: 10%;
+    background-color: crimson;
+}
+
+table{
+    width: 100%;
+}
+
+table .mat-row:first-child td{
+    background-color: #FF5722; 
+    color: #fff; 
+    font-size: large;
+  }
+
+  table .mat-header-row th{
+    font-size: 30px;
+    text-transform: uppercase;
+  }

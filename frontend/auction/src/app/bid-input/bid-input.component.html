@@ -1,0 +1,14 @@
+<mat-card class="mat-elevation-z8">
+    <mat-card-header>
+      <mat-card-title>Place a Bid</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-form-field appearance="fill">
+        <mat-label>Your Bid</mat-label>
+        <input matInput [(ngModel)]="newBid" type="number" placeholder="Enter your bid" />
+      </mat-form-field>
+      <br>
+      <button mat-raised-button color="orange" (click)="placeBid()">Place Bid</button>
+    </mat-card-content>
+  </mat-card>
+  

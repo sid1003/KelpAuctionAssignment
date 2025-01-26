@@ -1,0 +1,17 @@
+<div class="content">
+  <mat-card class="example-card mat-elevation-z8 flexy" >
+    <mat-card-header>
+      <h1>Welcome to the Auction!</h1>
+    </mat-card-header>
+    <br>
+    <mat-card-content>
+      <mat-form-field class="example-full-width">
+        <mat-label>Enter your name</mat-label>
+        <input matInput [(ngModel)]="userName" placeholder="name" name="userName" >
+      </mat-form-field>
+    </mat-card-content>
+    <button (click)="setUserName()" mat-raised-button>SUBMIT</button>
+  </mat-card>
+</div>
+
+
